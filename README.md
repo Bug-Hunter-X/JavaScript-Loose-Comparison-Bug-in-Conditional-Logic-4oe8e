@@ -1,0 +1,3 @@
+This repository demonstrates a common yet subtle bug in JavaScript related to loose comparison in conditional statements. The `foo` function aims to handle null, undefined, and 0 as special cases, but due to the use of loose comparison (`==`), it produces incorrect results.
+
+The `bug.js` file contains the buggy code, while `bugSolution.js` provides the corrected version using strict comparison (`===`).
